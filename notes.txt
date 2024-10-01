@@ -1,0 +1,28 @@
+COMMANDS
+
+1. "git init ." :
+    Creating a new git project using the current repository or initializing a new git project using the current directory.
+
+2. " rm -rf .git " :
+     deleting a git project
+
+3. "git status":
+it gives us the status of the changes we have made
+
+4. "git add":
+this is used to add files to the staging area where it can now be committed .
+
+5. "git rm --cached index.html":
+this is used to remove files from the staging area
+
+6. "git add .":
+used to add all the files in the current directory downwards to the staging area
+
+7. "git rm -r --cached .":
+this is used to remove all the file in the current directory recursively.	
+
+8. "":
+
+9. "":
+
+10. "": 
