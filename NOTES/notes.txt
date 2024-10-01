@@ -21,7 +21,8 @@ used to add all the files in the current directory downwards to the staging area
 7. "git rm -r --cached .":
 this is used to remove all the file in the current directory recursively.	
 
-8. "":
+8. "git add -A":
+this is to add every single file in the current directory
 
 9. "":
 
