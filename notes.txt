@@ -33,9 +33,11 @@ this is used to see the changes we have committed.
 11. "git show [yourHarsh]":
 this is used to see the actual changes that were made into the actual commit(save point). YourHarsh varies and is a long combination of letters and numbers
 
-12. "":
+12. "git diff":
+this is used to show the difference between two versions or states of a file.
 
-13. "":
+13. "git restore index.js":
+the "git restore" is used to discard the previous changes made in the working directory or repository.
 
 14. "":
 
