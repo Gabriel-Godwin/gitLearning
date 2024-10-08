@@ -1,0 +1,52 @@
+COMMANDS
+
+1. "git init ." :
+    Creating a new git project using the current repository or initializing a new git project using the current directory.
+
+2. " rm -rf .git " :
+     deleting a git project
+
+3. "git status":
+it gives us the status of the changes we have made
+
+4. "git add":
+this is used to add files to the staging area where it can now be committed .
+
+5. "git rm --cached index.html":
+this is used to remove files from the staging area
+
+6. "git add .":
+used to add all the files in the current directory downwards to the staging area
+
+7. "git rm -r --cached .":
+this is used to remove all the file in the current directory recursively.	
+
+8. "git add -A":
+this is to add every single file in the current directory.
+
+9. "git commit -m "bootstrap project" ":
+this is used to commit the current version of the project into a save point before pushing to the remote server(GitHub). The "bootstrap project" is the commit message.
+
+10. "git log": 
+this is used to see the changes we have committed.
+
+11. "git show [yourHarsh]":
+this is used to see the actual changes that were made into the actual commit(save point). YourHarsh varies and is a long combination of letters and numbers
+
+12. "":
+
+13. "":
+
+14. "":
+
+15. "":
+
+16. "":
+
+17. "":
+
+18. "":
+
+19. "":
+
+20. "":
