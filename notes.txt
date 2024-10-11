@@ -39,16 +39,28 @@ this is used to show the difference between two versions or states of a file.
 13. "git restore index.js":
 the "git restore" is used to discard the previous changes made in the working directory or repository.
 
-14. "":
+14. "git commit --amend -m "YourMessage" ":
+this is used to make amendments to the message assigned to a particular commit.
 
-15. "":
 
-16. "":
+15. "git remote add origin https://github.com/Gabriel-Godwin/gitLearning.git":
+this is the path to the remote server of my repositories(files and folders that have been committed) on my local machine to GitHub the remote server itself.
 
-17. "":
+16. "git branch -M main":
+changing from master to main... so basically this is done because recently GitHub changed their branch from master to main
 
-18. "":
+17. "git branch":
+checking the branch of the repository
 
-19. "":
+18. "git push -u origin":
+pushing the local repository to GitHub for the first time.
 
-20. "":
+19. "git push":
+pushing the local repository to GitHub subsequently(after the first push).
+
+20. "git pull":
+this is used to pull or bring the latest changes from the remote server GitHub back to our local machine
+
+1.06
+
+
