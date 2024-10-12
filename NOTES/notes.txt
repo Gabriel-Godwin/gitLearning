@@ -22,8 +22,77 @@ used to add all the files in the current directory downwards to the staging area
 this is used to remove all the file in the current directory recursively.	
 
 8. "git add -A":
-this is to add every single file in the current directory
+this is to add every single file in the current directory.
 
-9. "":
+9. "git commit -m "bootstrap project" ":
+this is used to commit the current version of the project into a save point before pushing to the remote server(GitHub). The "bootstrap project" is the commit message.
 
-10. "": 
+10. "git log": 
+this is used to see the changes we have committed.
+
+11. "git show [yourHarsh]":
+this is used to see the actual changes that were made into the actual commit(save point). YourHarsh varies and is a long combination of letters and numbers
+
+12. "git diff":
+this is used to show the difference between two versions or states of a file.
+
+13. "git restore index.js":
+the "git restore" is used to discard the previous changes made in the working directory or repository.
+
+14. "git commit --amend -m "YourMessage" ":
+this is used to make amendments to the message assigned to a particular commit.
+
+
+15. "git remote add origin https://github.com/Gabriel-Godwin/gitLearning.git(https)" or "git remote add origin git@github.com:Gabriel-Godwin/myLocalFiles.git(SSH key):"
+this is the path to the remote server of my repositories(files and folders that have been committed) on my local machine to GitHub the remote server itself.
+
+16. "git branch -M main":
+changing from master to main... so basically this is done because recently GitHub changed their branch from master to main
+
+17. "git branch":
+checking the branch of the repository
+
+18. "git push -u origin":
+pushing the local repository to GitHub for the first time.
+
+19. "git push":
+pushing the local repository to GitHub subsequently(after the first push).
+
+20. "git pull":
+this is used to pull or bring the latest changes from the remote server GitHub back to our local machine
+
+21. "git config --global http.postBuffer 524288000":
+this is used to increase the size of the git buffer which enables handling of large files and repos.
+
+22. "git config --global core.compression 9":
+this is used to increase the compression level of git making it to compress objects more aggressively which in turn decreases the size of data being transferred.
+
+23. "git remote set-url origin git@github.com:Gabriel-Godwin/myLocalFiles.git":
+this is used to change the url or the path of an existing origin remote(path to the remote server).... in this case it is being changed from https to @github
+
+24. "git remote -v":
+this is used to check the url of the current origin remote.
+
+25. "git remove remote origin":
+this is used to remove the current or existing remote.
+
+26. "ssh -T git@github.com":
+this is used to test SSH connection
+
+27. "git count-objects -vH":
+this is used to check the size of the current repo
+
+28. "git lfs track "*.zip" ":
+this is used to track large files with the specified file extension through your repo
+
+29. "":
+
+30. "":
+
+31. "":
+ 
+32. "":
+
+
+
+
