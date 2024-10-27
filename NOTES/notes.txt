@@ -85,13 +85,34 @@ this is used to check the size of the current repo
 28. "git lfs track "*.zip" ":
 this is used to track large files with the specified file extension through your repo
 
-29. "":
+29. "git branch -r":  Checking the list of branches on the remote server that are not yet pulled to our local machine.
 
-30. "":
+30. "git branch -a": Checking for the list of all the branches both on the local machine and on the remote server.
 
-31. "":
+31. " git branch nameOfBranch":
+this is used to create a new branch
  
-32. "":
+32. " git checkout nameOfBranch":
+this is used to switch branches
+
+32. " git checkout -":
+used to switch back to the previous branch
+
+33. "":
+
+34. "":
+
+35. "":
+
+36. "":
+
+37. "":
+
+38. "":
+
+39. "":
+
+40. "":
 
 
 
